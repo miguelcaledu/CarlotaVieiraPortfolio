@@ -1,0 +1,82 @@
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* Container for the entire "About Me" section */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensures responsive wrapping for smaller screens */
+    padding: 20px;
+}
+
+/* Image Section */
+.image-container {
+    flex: 1;
+    max-width: 400px; /* Image container maximum width */
+    margin-right: 20px; /* Space between image and text */
+}
+
+/* Image Styling */
+.about-image {
+    width: 100%; /* Ensures image takes full width of container */
+    height: auto; /* Keeps aspect ratio */
+    object-fit: cover; /* Ensures image covers container area without distortion */
+    border-radius: 10px; /* Optional styling for rounded corners */
+}
+
+/* Text Section */
+.text-container {
+    flex: 2; /* Takes up more space compared to the image */
+    max-width: 600px; /* Text container maximum width */
+}
+
+h2 {
+    font-size: 2.5rem; /* Heading size */
+    margin-bottom: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+p {
+    font-size: 1.1rem; /* Paragraph font size */
+    line-height: 1.6; /* Line height for better readability */
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* Social Media Icons Section */
+.social-icons {
+    margin-top: 20px; /* Space between text and social icons */
+}
+
+/* Social Media Icon Styling */
+.social-icons a {
+    margin: 0 10px; /* Horizontal space between icons */
+    text-decoration: none;
+    font-size: 1.5rem; /* Icon size */
+    color: #333; /* Default icon color */
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.social-icons a:hover {
+    color: #555; /* Hover color for icons */
+}

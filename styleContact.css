@@ -1,0 +1,255 @@
+
+/* Navigation styles (for consistency) */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* Main section styles */
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.content h1 {
+    font-size: 3.6rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* Contact form styles */
+.contact-form {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Barlow Condensed', sans-serif;}
+
+.form-group textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.contact-form button:hover {
+    background-color: #333;
+}
+
+/* Contact information styles */
+.contact-info {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* Social media icons */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333;
+    transition: color 0.3s ease;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.social-icons a:hover {
+    color: #555;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .content h1 {
+        font-size: 3rem;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+
+    .contact-form {
+        padding: 15px;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .content h1 {
+        font-size: 2.5rem;
+        font-family: 'Barlow Condensed', sans-serif;
+
+    }
+
+    .social-icons a {
+        font-size: 1.2rem;
+        font-family: 'Barlow Condensed', sans-serif;
+
+    }
+}
+/* Contact Page Styles */
+
+/* ... (previous styles remain unchanged) ... */
+
+/* Contact form styles */
+.contact-form {
+    max-width: 500px;  /* Reduced from 600px */
+    width: 90%;  /* Added to ensure responsiveness */
+    margin: 0 auto;
+    padding: 30px;  /* Increased padding for better spacing */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1rem;  /* Slightly reduced font size */
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 8px;  /* Reduced padding */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9rem;  /* Slightly reduced font size */
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.form-group input {
+    height: 36px;  /* Set a specific height for inputs */
+}
+
+.form-group textarea {
+    height: 120px;  /* Reduced height */
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: block;  /* Make button full width */
+    width: 100%;  /* Make button full width */
+    margin-top: 10px;  /* Add some space above the button */
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.contact-form button:hover {
+    background-color: #333;
+}
+
+/* ... (rest of the styles remain unchanged) ... */
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contact-form {
+        width: 95%;  /* Slightly wider on smaller screens */
+        padding: 20px;  /* Reduced padding on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .form-group input,
+    .form-group textarea {
+        font-size: 10px;  /* Prevent zoom on focus in iOS */
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+}
